@@ -34,10 +34,10 @@
             </a>
             
             <a class="brand" href="index.html">
-                Bootstrap Admin Template                
+               Document Tracking System           
             </a>        
             
-            <div class="nav-collapse">
+          <!--   <div class="nav-collapse">
                 <ul class="nav pull-right">
                     
                     <li class="">                       
@@ -56,7 +56,7 @@
                     </li>
                 </ul>
                 
-            </div><!--/.nav-collapse -->    
+            </div><!--/.nav-col -->lapse -->    
     
         </div> <!-- /container -->
         

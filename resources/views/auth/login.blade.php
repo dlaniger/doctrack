@@ -8,7 +8,7 @@
        <form class="form-horizontal" method="POST" action="{{ route('login') }}">
         {{ csrf_field() }}
         
-        <h1>Member Login</h1>       
+        <h1>User Login</h1>       
 
         <div class="login-fields">
 

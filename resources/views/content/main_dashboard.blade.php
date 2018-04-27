@@ -1,5 +1,5 @@
 @extends('index')
-@section('indexcontent')
+@section('content')
 <div class="row">
 	<div class="span6">
 		<div class="widget widget-nopad">

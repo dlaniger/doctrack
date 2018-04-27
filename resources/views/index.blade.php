@@ -24,7 +24,7 @@
 		<div class="main-inner">
 			<div class="container">
 
-				@yield('indexcontent')
+				@yield('content')
 
 			</div>
 		</div>
