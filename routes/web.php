@@ -25,3 +25,11 @@ Route::get('/dashboard', 'HomeController@index');
 Route::get('/index', function () {
     return view('content.main_dashboard');
 });
+
+Route::get('/tracking', function () {
+    return view('content.tracking');
+});
+
+Route::get('/users', function () {
+    return view('content.users');
+});

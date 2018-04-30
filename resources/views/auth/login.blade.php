@@ -65,9 +65,9 @@
 
 
 <div class="login-extra">
-   <a class="" href="{{ route('password.request') }}">
-        Forgot Your Password?
+   <a class="" href="index">
+       Back to Home
     </a>
-</div>  --><!-- /login-extra
+</div> <!-- /login-extra
 
 @endsection
