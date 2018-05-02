@@ -33,3 +33,25 @@ Route::get('/tracking', function () {
 Route::get('/users', function () {
     return view('content.users');
 });
+
+Route::get('/reports', function () {
+    return view('content.reports');
+});
+
+Route::get('/references/institutes', function () {
+    return view('content.institutes');
+});
+
+Route::get('/references/documents', function () {
+    return view('content.document');
+});
+
+Route::get('/references/offices', function () {
+    return view('content.offices');
+});
+
+Route::get('/references/utype', function () {
+    return view('content.usertype');
+});
+
+
