@@ -16,42 +16,29 @@ Auth::routes();
 
 Route::get('/logout', 'Auth\LoginController@logout');
 
-Route::get('/dashboard', 'HomeController@index');
+
 
 // Route::get('/index', function () {
 //     return view('content.indexcontent');
 // })->middleware('auth');
+Route::get('/index', 'GuestController@index');
 
-Route::get('/index', function () {
-    return view('content.main_dashboard');
-});
+Route::get('/dashboard', 'HomeController@index');
 
-Route::get('/tracking', function () {
-    return view('content.tracking');
-});
+Route::get('/tracking', 'TrackingController@index');
 
-Route::get('/users', function () {
-    return view('content.users');
-});
+Route::get('/users', 'UsersController@index');
 
-Route::get('/reports', function () {
-    return view('content.reports');
-});
+Route::get('/references/utype', 'UsersController@utype');
 
-Route::get('/references/institutes', function () {
-    return view('content.institutes');
-});
+Route::get('/reports', 'ReportsController@index');
 
-Route::get('/references/documents', function () {
-    return view('content.document');
-});
+Route::get('/references/institutes', 'InstituteController@index');
 
-Route::get('/references/offices', function () {
-    return view('content.offices');
-});
+Route::get('/references/documents', 'DocumentController@index');
 
-Route::get('/references/utype', function () {
-    return view('content.usertype');
-});
+Route::get('/references/offices', 'AssocController@index');
+
+
 
 
