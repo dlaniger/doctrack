@@ -21,6 +21,9 @@ Route::get('/logout', 'Auth\LoginController@logout');
 // Route::get('/index', function () {
 //     return view('content.indexcontent');
 // })->middleware('auth');
+
+Route::get('/', 'GuestController@index');
+
 Route::get('/index', 'GuestController@index');
 
 Route::get('/dashboard', 'HomeController@index');
