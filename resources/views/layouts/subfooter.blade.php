@@ -35,14 +35,8 @@
                     </div>
                     <!-- /span3 -->
                     <div class="span3">
-                        <h4>
-                            Open Source jQuery Plugins</h4>
-                        <ul>
-                            <li><a href="http://www.egrappler.com">Open Source jQuery Plugins</a></li>
-                            <li><a href="http://www.egrappler.com;">HTML5 Responsive Tempaltes</a></li>
-                            <li><a href="http://www.egrappler.com;">Free Contact Form Plugin</a></li>
-                            <li><a href="http://www.egrappler.com;">Flat UI PSD</a></li>
-                        </ul>
+                        <h3>Powered By:</h3>
+                       <a class="brand" href="{{ url('/dashboard')}}"><img src="{{ url('/img/csrclogo.png')}}" style="width: 30%; padding-left: 30px!important; margin-left: 30px!important; padding-top: 5px!important; margin-top: 5px!important" alt="CSRC Logo"></a>
                     </div>
                     <!-- /span3 -->
                 </div>

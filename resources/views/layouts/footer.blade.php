@@ -13,9 +13,10 @@
 </div>
 
 <script src="{{ url('/js/jquery-1.7.2.min.js') }}"></script> 
-  <script src="{{ url('/js/excanvas.min.js') }}"></script> 
-  <script src="{{ url('/js/chart.min.js') }}" type="text/javascript"></script> 
-  <script src="{{ url('/js/bootstrap.js') }}"></script>
-  <script language="javascript" type="text/javascript" src="{{ url('/js/full-calendar/fullcalendar.min.js') }}"></script>
-  
-  <script src="{{ url('/js/base.js') }}"></script> 
+<script src="{{ url('/js/excanvas.min.js') }}"></script> 
+<script src="{{ url('/js/chart.min.js') }}" type="text/javascript"></script> 
+<script src="{{ url('/js/bootstrap.js') }}"></script>
+<script src="{{ url('/js/select2.js') }}"></script> 
+<script language="javascript" type="text/javascript" src="{{ url('/js/full-calendar/fullcalendar.min.js') }}"></script>
+
+<script src="{{ url('/js/base.js') }}"></script> 
